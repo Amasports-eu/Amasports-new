@@ -1,0 +1,11 @@
+POSIZIONE DEL PIN SULLA MAPPA COME SI CAMBIA?
+
+mappa in runningflow.html rimane bloccata
+
+href funzionano solo su index.html, nelle altre pagine no. anche il form funziona solo su index
+
+colore delle voci del nav su "runningflow.html" quando c'è il pulsante per mobile ha scritte scure su sfondo scuro. come si cambia?
+
+font yikes non lo prende online
+
+mettere pulsante con invio automatico per il form

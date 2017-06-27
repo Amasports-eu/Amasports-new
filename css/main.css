@@ -1,0 +1,599 @@
+/*****************
+GENERAL
+******************/
+body{
+  background-color: white;
+  font-family: Open Sans;
+  margin: 0;
+}
+
+
+#wrapper{
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+
+
+/*****************
+NAV
+******************/
+nav{
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(18, 18, 18, 0.85);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+
+#logo{
+  height: 1;
+}
+
+
+nav ul{
+  text-align: center;
+  padding:0;
+  margin: 0;
+}
+
+nav li a{
+  color: white;
+}
+
+nav li a:hover{
+  color:#00bff0;
+}
+
+
+nav li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px 15px 15px;
+  color:white;
+  font-size: 16px;
+}
+
+
+
+nav .home{
+  color:white;
+  font-size: 22px;
+}
+
+nav #prenota{
+  color: white;
+  font-weight: bold;
+  color: #f16051;
+  border: 3px solid #f16051;
+  border-radius: 5px;
+  margin: 0;
+  padding: 2px 10px 2px 10px;
+}
+
+.selected{
+  color: #00bff0;
+}
+
+nav img{
+  max-width: 250px;
+  margin: 0px auto;
+  padding: 0;
+  text-align: center;
+  display: block;
+}
+
+/*****************
+TITOL
+******************/
+
+
+.blue{
+  color: #00bff0;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 10px ; 
+}
+
+.white{
+  color: white;
+  font-size: 45px;
+  margin: 0;
+  padding: 0 5px 0 0;
+}
+
+#riga1 p{
+  display: inline-block;
+}
+
+#riga2 p{
+  display: inline-block;
+}
+
+#riga1{
+  text-align: center;
+}
+
+#riga2{
+  text-align: center;
+}
+
+header .prenota{
+  padding: 0 12px;
+  text-align: center;
+  margin: 50px auto 100px auto; 
+  font-weight: bold;
+  border: 3px solid #f16051;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  color: #f16051;
+}
+.banner a{
+  text-align: center;
+}
+
+header h3{
+  margin: 50px 0;
+  padding: 150px 0;
+}
+
+.banner{
+  padding: 200px 0 20px 0;
+  margin: 0;
+  text-align: center;
+}
+
+header{
+  background: linear-gradient(0deg, transparent, transparent),
+    url(../images/background.png);
+  background-position: center top;
+  background-size: 100%;
+  background-attachment: fixed;
+  padding-top:99px;
+}
+
+.titol{
+  padding: 50px 0 20px 0;
+  margin: 0;
+  text-align: center;
+}
+
+
+/*****************
+PRENOTA
+******************/
+
+.prenota {
+  font-size: 30px;
+  margin: 0 auto;
+  padding: 25px 0 100px 0;
+  width: 300px;
+  text-align: center;
+}
+.prenota a{
+    color: #f16051;
+}
+.prenota:hover {
+  box-shadow: 0px 0px 0px 2px #f16051;
+}
+
+header .servizi li{
+  padding: 25px 50px;
+  margin: 25px 10px;
+  border: 3px solid #f16051;
+  border-radius: 10px 10px 10px 10px;
+  width: 250px;
+  display: inline-block;
+  background-color: #ECEFF1;
+}
+
+header .servizi li:hover{
+  box-shadow: 0px 0px 0px 2px #f16051
+}
+
+.servizi a{
+  color: #f16051;
+  font-size: 30px;
+  padding: 0;
+  width: 250px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.servizi a:hover{
+  
+}
+
+.servizi{
+  text-align: center;
+  padding: 0;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 25px 50px 50px 50px;
+}
+
+
+
+
+/*****************
+come funziona
+******************/
+#work{
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+
+
+
+#work h3{
+  font-size: 30px;
+  margin: 0;
+  padding: 100px 50px 15px 50px;
+  text-align: center;
+}
+
+
+
+#work .testo {
+  font-size: 22px;
+  padding: 25px 50px 75px 50px;
+  margin: 0 auto;
+  color: #121212;
+  text-align: center;
+  max-width: 785px;
+}
+
+#work1 .testo {
+  font-size: 22px;
+  padding: 0 45px 25px 45px;
+  margin: 0 auto;
+  color: #121212;
+  text-align: center;
+  max-width: 765px;
+}
+
+#icon {
+  padding: 0 0 80px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+#icon li{
+  list-style: none;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 50px 100px;
+}
+
+
+.blue1{
+  color: #00bff0;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 8px 0 0 0;
+  padding: 8px 0 0 0;
+}
+
+.white1{
+  font-weight: bold;
+  font-size: 21px;
+}
+
+
+#icon p{
+  padding: 0;
+  margin: 0 auto;
+  max-width: 174px;
+}
+
+
+#icon img{
+  max-width: 100%;
+  margin: 0 0 12px 0;
+}
+
+#icon1{
+  width: 174px;
+  text-align: center;
+  vertical-align: top;
+  
+}
+
+#icon2{
+  width: 174px;
+  text-align: center;
+  vertical-align: top;
+}
+
+#icon3{
+  width: 174px;
+  text-align: center;
+  vertical-align: top;
+}
+
+
+
+
+#icon3 img{
+  max-width: 174px;
+}
+
+
+
+
+
+/*****************
+evidenza
+******************/
+#evidenza{
+  padding: 12.5px 0 12.5px 0;
+  
+  margin: 0 auto;
+  background-color: #EEEEEE;
+}
+
+
+.consigliati{
+  margin: 0 auto;
+  max-width: 1366px;
+  padding: 50px 100px 100px 100px;
+  text-align: center;
+}
+
+
+.consigliati li{
+  padding: 0;
+  max-width: 100%;
+  display: inline-block;
+  margin: 25px 25px;
+}
+
+.consigliati img{
+  box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+#evidenza h3{
+  margin: 0;
+  padding: 100px 50px 12.5px 50px;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+#evidenza ul .nome{
+  font-size: 25px;
+  margin: 10px 0 5px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+#evidenza ul .ruolo{
+  font-size: 20px;
+  text-align: center;
+  color: #00bff0;
+}
+
+
+
+.consigliati li{
+  padding: 25px 25px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+
+
+/*****************
+lavora con noi
+******************/
+
+
+#lavora{
+  padding: 12.5px 50px 80px 50px;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url(../images/background2.png);
+  background-attachment: fixed;
+  background-position: center top;
+}
+
+
+
+#lavora h3{
+  margin: 0 auto;
+  padding: 100px 3px 0px 3px;
+  display: inline-block;
+  max-width: 1040px;
+  text-align: center;
+}
+
+
+.white3 {
+  font-weight: 700;
+  font-size: 30px;
+   max-width: 1040px;
+  color: white;
+}
+
+#lavora .blue3{
+  color:#00bff0;
+  font-weight: 900;
+  font-size: 30px;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0 auto;
+  max-width: 1040px;
+  color: white;
+}
+
+#lavora p{
+  font-size: 22px;
+  padding: 5px 0;
+  max-width: 1040px;
+  color: white;
+  margin: 0 auto;
+}
+
+.testo{
+  padding: 25px 0 80px 0;
+  margin: 0 50px;
+  max-width: 1040px;
+  margin: 0 auto;
+  color: white;
+}
+
+#lavora a{
+  color:#00bff0;
+  padding: 0 4px 2px 4px;
+  border: 2px solid #00bff0;
+  border-radius: 7px; 
+  max-width: 1040px;
+}
+
+
+
+/*****************
+footer
+******************/
+
+footer{
+  text-align: center;
+  clear: both;
+  padding: 40px 0 0 0;
+  background-color: #ccf5ff;
+  overflow: auto;
+}
+
+
+.icona-social{
+  width: 50px;
+  margin: 0;
+  padding: 0 20px;
+}
+
+footer h3{
+  text-align: center;
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+
+#contact-info li{
+  text-align: center;
+  padding: 5px 0;
+  margin: 0;
+}
+#contact-info{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  min-height: calc(100vh - 258px - 316px);
+}
+
+.mail:hover{
+  color: #f16051;
+}
+
+.phone:hover{
+  color: #f16051;
+}
+
+.indirizzo:hover{
+  color: #f16051;
+}
+
+
+
+
+/***************
+paginaservizi
+**************/
+
+#titoloservizio{
+  font-size: 30px;
+  margin: 0;
+  padding: 124px 50px 15px 50px;
+  text-align: center;
+}
+
+
+#elenco{
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  max-width: 1366px;
+
+}
+
+#elenco li{
+  margin: 12.5px 25px;
+  padding: 12.5px 0;
+  text-align: center;
+  display: inline-block;
+}
+
+
+#titoloservizio a{
+  color:#00bff0;
+}
+
+#elenco img{
+  width: 100%;
+  box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+#elenco .nome{
+  font-size: 25px;
+  margin: 10px 0 5px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+#elenco .info{
+  font-size: 20px;
+  text-align: center;
+  max-width: 435px;
+  display: block;
+}
+
+#elenco .risp{
+  font-size: 20px;
+  text-align: center;
+  max-width: 435px;
+  display: block;
+  font-weight: bold;
+}
+
+
+
+
