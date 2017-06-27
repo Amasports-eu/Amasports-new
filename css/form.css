@@ -1,0 +1,45 @@
+label{
+	display: block;
+}
+
+.news{
+	display: inline-block;
+}
+
+button{
+	display: block;
+	margin: 0 auto;
+}
+
+form{
+	padding: 100px;
+}
+
+label{
+	max-width: 250px;
+	margin: 0 auto;
+	text-align: left;
+}
+#user-info{
+	width: 250px;
+	margin: 0 auto;
+}
+#user-info input{
+	width: 250px;
+	text-align: left;
+}
+
+#newsletter{
+	width: 250px;
+	margin: 0 auto;
+}
+textarea{
+	width: 250px;
+}
+select{
+	width: 250px;
+}
+
+#newsletter input{
+	text-align: left;
+}

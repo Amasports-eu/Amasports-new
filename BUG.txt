@@ -9,3 +9,9 @@ colore delle voci del nav su "runningflow.html" quando c'è il pulsante per mobi
 font yikes non lo prende online
 
 mettere pulsante con invio automatico per il form
+
+
+
+da fare
+-form
+-foto orario corsi
