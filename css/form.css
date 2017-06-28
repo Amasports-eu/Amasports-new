@@ -1,45 +1,41 @@
-label{
-	display: block;
-}
-
 .news{
 	display: inline-block;
 }
 
-button{
+label{
 	display: block;
 	margin: 0 auto;
+	text-align: left;
+	color: white;
+	font-weight: 500;
 }
 
-form{
-	padding: 100px;
-}
-
-label{
-	max-width: 250px;
-	margin: 0 auto;
-	text-align: left;
-}
-#user-info{
-	width: 250px;
-	margin: 0 auto;
-}
-#user-info input{
-	width: 250px;
-	text-align: left;
-}
 
 #newsletter{
-	width: 250px;
+	width: 400px;
 	margin: 0 auto;
+	padding-top: 50px;
 }
 textarea{
-	width: 250px;
+	width: 400px;
 }
 select{
-	width: 250px;
+	width: 370px;
+	border-radius: 5px;
 }
 
 #newsletter input{
 	text-align: left;
+}
+
+
+#fh5co-contact .coupon-form{
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+
+
+#fh5co-contact{
+	margin: 0;
 }

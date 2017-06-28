@@ -97,84 +97,92 @@
 			  <!-- </div> -->
 		  </div>
 	</header>
+	<section id="fh5co-contact" data-section="contact">
+			<div class="container">
+				<div class="coupon-form">
+					<h3>Richiedi il coupon</h3>
+					<div class="form-group ">
+						<label for="name" class="sr-only">Nome</label>
+						<input id="name" class="form-control" placeholder="Nome" type="text">
+					</div>
+					<div class="form-group ">
+						<label for="name" class="sr-only">Cognome</label>
+						<input id="name" class="form-control" placeholder="Cognome" type="text">
+					</div>
+					<div class="form-group ">
+						<label for="email" class="sr-only">Email</label>
+						<input id="email" class="form-control" placeholder="Email" type="email">
+					</div>
+					<div class="form-group ">
+						<label for="message" class="sr-only">Messaggio</label>
+						<textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Messaggio"></textarea>
+					</div>
+					<div class="form-group ">
+						<label>Scegli:</label>
+						<select name="user-pacchetti" id="pacchetti">
+							<optgroup label="Sala Pesi">
+								<option value="1-a">Pass giornaliero 7€</option>
+								<option value="1-b">Pass settimanale 24€</option>
+								<option value="1-c">Pass mensile 80€</option>
+								<option value="1-d">Pass trimestrale 180€</option>
+								<option value="1-e">Pass semestrale 270€</option>
+								<option value="1-f">Pass annuale 405€</option>
+							</optgroup>
+							<optgroup label="Sala Pesi + Wellness">
+								<option value="2-a">Pass giornaliero 7€</option>
+								<option value="2-b">Pass settimanale 24€</option>
+								<option value="2-c">Pass mensile 80€</option>
+								<option value="2-d">Pass trimestrale 180€</option>
+								<option value="2-e">Pass semestrale 270€</option>
+								<option value="2-f">Pass annuale 405€</option>
+							</optgroup>
+							<optgroup label="Sala Pesi + Wellness + Corsi">
+								<option value="3-a">Pass giornaliero 7€</option>
+								<option value="3-b">Pass settimanale 24€</option>
+								<option value="3-c">Pass mensile 80€</option>
+								<option value="3-d">Pass trimestrale 180€</option>
+								<option value="3-e">Pass semestrale 270€</option>
+								<option value="3-f">Pass annuale 405€</option>
+							</optgroup>
+						</select>
+					</div>
+					<div class="form-group ">
+						<div id="newsletter">
+							<label>Vuoi rimanere aggiornato su sconti dedicati?</label>
+							<input type="radio" name="newsletter" id="si-news" value="si-news">
+							<label class="news">Si</label><br>
+							
+							<input type="radio" name="newsletter" id="no-news" value="no-news">
+							<label class="news">No</label>
 
-	<!-- form -->
-	<form action="index.html" method="post">
-	<div id="user-info">
-		<h1>Richiedi il coupon</h1>
-		<label for="name">Nome:</label>
-		<input type="text" name="user_name" id="name">
+							<label>Interessi:</label>
+							
+							<input type="checkbox" name="palestre" id="palestre">
+							<label for="palestre" class="news">Palestre</label><br>
 
-		<label for="surname">Cognome:</label>
-		<input type="text" name="user_name" id="surname">
+							<input type="checkbox" name="personal-trainer" id="personal-trainer"">
+							<label for="personal-trainer"" class="news">Personal Traning</label><br>
 
-		<label for="mail">Email:</label>
-		<input type="email" name="user_mail" id="mail">
+							<input type="checkbox" name="tennis" id="tennis">
+							<label for="tennis" class="news">Tennis</label><br>
 
-		<label for="textarea">Scrivici:</label>
-		<textarea name="user-textarea" id="textarea"></textarea>
-		
-		<label>Scegli:</label>
-		<select name="user-pacchetti" id="pacchetti">
-			<optgroup label="Sala Pesi">
-				<option value="1-a">Pass giornaliero 7€</option>
-				<option value="1-b">Pass settimanale 24€</option>
-				<option value="1-c">Pass mensile 80€</option>
-				<option value="1-d">Pass trimestrale 180€</option>
-				<option value="1-e">Pass semestrale 270€</option>
-				<option value="1-f">Pass annuale 405€</option>
-			</optgroup>
-			<optgroup label="Sala Pesi + Wellness">
-				<option value="2-a">Pass giornaliero 7€</option>
-				<option value="2-b">Pass settimanale 24€</option>
-				<option value="2-c">Pass mensile 80€</option>
-				<option value="2-d">Pass trimestrale 180€</option>
-				<option value="2-e">Pass semestrale 270€</option>
-				<option value="2-f">Pass annuale 405€</option>
-			</optgroup>
-			<optgroup label="Sala Pesi + Wellness + Corsi">
-				<option value="3-a">Pass giornaliero 7€</option>
-				<option value="3-b">Pass settimanale 24€</option>
-				<option value="3-c">Pass mensile 80€</option>
-				<option value="3-d">Pass trimestrale 180€</option>
-				<option value="3-e">Pass semestrale 270€</option>
-				<option value="3-f">Pass annuale 405€</option>
-			</optgroup>
-		</select>
-	</div>
+							<input type="checkbox" name="yoga" id="yoga">
+							<label for="yoga" class="news">Pilates & Yoga</label><br>
 
-	<div id="newsletter">
-		<label>Vuoi rimanere aggiornato su sconti dedicati?</label>
-		<input type="radio" name="newsletter" id="si-news" value="si-news">
-		<label class="news">Si</label><br>
-		
-		<input type="radio" name="newsletter" id="no-news" value="no-news">
-		<label class="news">No</label>
+							<input type="checkbox" name="nuoto" id="nuoto">
+							<label for="nuoto" class="news">Nuoto & Sport Acquatici</label><br>
 
-		<label>Interessi:</label>
-		
-		<input type="checkbox" name="palestre" id="palestre">
-		<label for="palestre" class="news">Palestre</label><br>
-
-		<input type="checkbox" name="personal-trainer" id="personal-trainer"">
-		<label for="personal-trainer"" class="news">Personal Traning</label><br>
-
-		<input type="checkbox" name="tennis" id="tennis">
-		<label for="tennis" class="news">Tennis</label><br>
-
-		<input type="checkbox" name="yoga" id="yoga">
-		<label for="yoga" class="news">Pilates & Yoga</label><br>
-
-		<input type="checkbox" name="nuoto" id="nuoto">
-		<label for="nuoto" class="news">Nuoto & Sport Acquatici</label><br>
-
-		<input type="checkbox" name="pugilato" id="pugilato">
-		<label for="pugilato" class="news">Pugilato & Arti Marziali</label>
-	</div>
-
-		<button type="submit">Richiedi</button>
-	</form>
-
+							<input type="checkbox" name="pugilato" id="pugilato">
+							<label for="pugilato" class="news">Pugilato & Arti Marziali</label>
+						</div>
+					</div>
+					<div class="form-group ">
+						<input class="btn btn-primary btn-lg" value="Richiedi" type="submit">
+					</div>
+				</div>
+			</div>
+	</section>
+	
 
 	<footer id="footer" role="contentinfo">
 		<a href="#" class="gotop js-gotop"><i class="icon-arrow-up2"></i></a>
