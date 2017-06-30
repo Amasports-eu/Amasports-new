@@ -1,6 +1,4 @@
-POSIZIONE DEL PIN SULLA MAPPA COME SI CAMBIA?
-
-mappa in runningflow.html rimane bloccata
+v mappa in runningflow.html rimane bloccata
 
 href funzionano solo su index.html, nelle altre pagine no. anche il form funziona solo su index
 
@@ -10,7 +8,7 @@ font yikes non lo prende online
 
 mettere pulsante con invio automatico per il form
 
-
+margin on the right sulla pagina runningflow.html
 
 da fare
 -foto orario corsi
