@@ -45,9 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 30px 0;
 }
-h2 div{
-  display: inline-block;
-}
+
 .div-inline-block{
   margin: 0 auto;
   text-align: center;
@@ -214,7 +212,7 @@ h2 div{
   width: 100%;
   opacity: 1;
   top: 0;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header {
@@ -394,7 +392,6 @@ h2 div{
   background-attachment: fixed;
   position: relative;
   width: 100%;
-  background-color: #52d3aa;
   color: #fff;
   overflow: hidden;
 }
@@ -540,11 +537,26 @@ h2 div{
   position: relative;
   background-repeat: no-repeat;
 }
+@media screen and (max-width: 992px){
+  .fh5co-text{
+    height: 330px;
+  }
+  #fh5co-intro .fh5co-block{
+    height: 430px;
+  }
+  #fh5co-intro p{
+    height: 150px;
+  }
+    #fh5co-intro h2{
+    height: 50px;
+  }
+}
 @media screen and (max-width: 768px) {
   #fh5co-intro .fh5co-block {
     width: 100%;
   }
 }
+
 #fh5co-intro .fh5co-block > .overlay-darker {
   z-index: 8;
   opacity: .5;
@@ -761,13 +773,16 @@ h2 div{
   min-height: 120px;
 }
 
+#fh5co-services .scritta{
+  height: 35px;
+}
 #fh5co-services .icon {
   font-size: 60px;
   margin-bottom: 10px;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   height: 70px;
 }
 #fh5co-services .icon:before {
@@ -1139,7 +1154,7 @@ h2 div{
 }
 
 #fh5co-contact {
-  padding: 80px 0 0 15px;
+  padding: 80px 0 0 0;
   margin-top: 80px;
   background: -webkit-linear-gradient(left top, #212121
 , #455A64); /* For Safari 5.1 to 6.0 */
@@ -1196,6 +1211,9 @@ h2 div{
 }
 #fh5co-contact .btn{
   background-color: #52d3aa;
+}
+#fh5co-contact .scritta{
+  height: 75px;
 }
 
 
@@ -1478,9 +1496,9 @@ h2 div{
 }
 
 #map {
-  width: 110%;
+  width: 100%;
   height: 500px;
-  left: -5%;
+  left: 0;
   position: relative;
   padding: 0;
   margin: 0;

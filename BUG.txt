@@ -13,5 +13,4 @@ mettere pulsante con invio automatico per il form
 
 
 da fare
--form
 -foto orario corsi
