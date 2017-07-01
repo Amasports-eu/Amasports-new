@@ -429,6 +429,17 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-home, #fh5co-home .text-wrap {
   height: 900px;
 }
+@media screen and (max-width: 768px){
+  #fh5co-home, #fh5co-home .text-wrap {
+  height: 750px;
+  position: relative;
+  }
+  #fh5co-home .text-inner{
+    padding: 0;
+    position: absolute;
+    top: 100px;
+  }
+}
 #fh5co-home .text-wrap {
   display: table;
   width: 120%;
@@ -723,7 +734,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
-  padding: 4em 0;
+  padding: 4.5em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
