@@ -1,3 +1,7 @@
+h3{
+	text-align: center;
+}
+
 .news{
 	display: inline-block;
 }
@@ -12,7 +16,7 @@ label{
 
 
 #newsletter{
-	width: 400px;
+	max-width: 90%;
 	margin: 0 auto;
 	padding-top: 50px;
 }
@@ -38,4 +42,22 @@ select{
 
 #fh5co-contact{
 	margin: 0;
+}
+
+.form-group{
+  margin: 0.5em 1em;
+}
+
+#pacchetti{
+	box-sizing: content-box;
+	padding: 5px 15px;
+	max-width: 90%;
+}
+
+.newsletter-title{
+	margin-bottom: 2em;
+}
+
+.btn{
+	margin: 0 auto;
 }

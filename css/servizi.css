@@ -14,14 +14,13 @@ section{
 
 #fh5co-home{
 	height: 600px;
-	width: 100%;
 	padding: 0;
-	background: linear-gradient(0deg, transparent, transparent);
-	background-position: center top;
 	background-repeat: no-repeat;
-	background-attachment: local;
-	z-index: 0;
-	position: initial;
+	z-index: -1;
+  background-color: transparent;
+  width: 100%;
+
+}
 } 
 @media screen and (max-width: 1199px){
   #fh5co-home{
@@ -188,7 +187,7 @@ pacchetti
   font-size: 22px;
   font-weight: bold;
   margin: 0;
-  padding: 10px 0 0 15px;
+  padding: 10px 0 0 0;
   text-align: center;
 }
 #fh5co-pacchetti .fh5co-pacchetto .fh5co-text p {
@@ -198,7 +197,7 @@ pacchetti
   padding: 0 15px 0 15px;
 }
 .fh5co-description {
-	height: 90px;
+	height: 80px;
 	margin: 5px 0 10px 0;
 }
 .fh5co-pacchetto {
@@ -210,6 +209,7 @@ pacchetti
   font-size: 16px;
   color: #b3b3b3;
 }
+
 #fh5co-pacchetti .fh5co-pacchetto:hover img, #fh5co-pacchetti .fh5co-pacchetto:focus img {
   opacity: .7;
 }
@@ -235,13 +235,14 @@ pacchetti
 	bottom: -2px;
 }
 
-@media screen and (max-width: 767px){ 
-	#fh5co-pacchetti li, #fh5co-pacchetti p, #fh5co-pacchetti h2 {
+@media screen and (max-width: 768px){ 
+	#fh5co-pacchetti li, #fh5co-pacchetti h2 {
 	font-size: 150%;
 	}
 	.fh5co-description {
 	height: 70px;
 	margin: 5px 0 10px 0;
+  font-size: 350%;
 	}
 	#fh5co-pacchetti strong{
 	bottom: -5px;
@@ -250,15 +251,11 @@ pacchetti
 	height: 400px;
 	max-width: 100%;
 	}
+  .fh5co-pacchetto p{
+    font-size: 22px;
+  }
 }
-@media screen and (max-width: 530px){ 
-	#fh5co-pacchetti li, #fh5co-pacchetti p, #fh5co-pacchetti h2 {
-	font-size: 130%;
-	}
-	#fh5co-pacchetti strong{
-	bottom: -4px;
-	}
-}
+
 @media screen and (max-width: 530px){ 
 	#fh5co-pacchetti li, #fh5co-pacchetti p, #fh5co-pacchetti h2 {
 	font-size: 130%;
@@ -291,9 +288,15 @@ pacchetti
 	bottom: -2px;
 	}
 	.fh5co-pacchetto {
-	height: 260px;
+	height: 310px;
 	max-width: 100%;
 	}
+  .fh5co-description{
+    height: 90px;
+  }
+  .fh5co-pacchetto h2{
+    height: 60px;
+  }
 }
 #fh5co-pacchetti a{
 	padding-left: 0;
@@ -362,7 +365,9 @@ info
 #fh5co-info .section-heading h3 {
   color: rgba(255, 255, 255, 0.8);
 }
-
+#fh5co-info p{
+  margin: 0 1em;
+}
 /*************
 corsi
 *************/
@@ -528,3 +533,6 @@ contatti
 }
 
 
+#fh5co-contact h3{
+  text-align: center;
+}
