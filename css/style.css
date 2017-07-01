@@ -310,6 +310,10 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header #navbar li img{
   margin-top: 20px;
 }
+@font-face {
+    font-family: yikes;
+    src: url(../fonts/yikes_medium.ttf);
+}
 #fh5co-header .navbar-brand {
   float: left;
   display: block;
@@ -317,8 +321,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   padding-left: 0;
   color: #fff;
-  font-family: yikes medium;
   padding: 22px 0px 13px 0px;
+  font-family: yikes;
 }
 .navbar-brand p{
   display: inline-block;

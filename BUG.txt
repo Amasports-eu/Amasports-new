@@ -5,3 +5,6 @@ font yikes non lo prende online
 mettere pulsante con invio automatico per il form
 
 errori in console di jquery che non fanno funzionare link "palestre" del nav
+
+
+cookie law
