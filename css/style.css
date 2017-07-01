@@ -507,7 +507,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 101%;
 }
 
-#fh5co-intro {
+#tre-icon #fh5co-intro {
   position: relative;
   bottom: 0;
   margin-top: -150px;
@@ -684,14 +684,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-servizio{
   padding-top: 80px;
-  margin-top: -200px;
+  margin-top: -180px;
 }
-@media screen and (max-width: 768px){
-  #fh5co-servizio{
-  padding-top: 180px;
-  margin-top: -200px;
-}
-}
+
 #fh5co-servizio h2{
   text-align: center;
   font-weight: bold;
@@ -717,12 +712,6 @@ h1, h2, h3, h4, h5, h6 {
 .text-servizio p{
   margin: 0;
 
-}
-@media screen and (max-width: 768px) {
-  
-  #scegli-servizi{
-    margin: 50px 0;
-  }
 }
 
 #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
