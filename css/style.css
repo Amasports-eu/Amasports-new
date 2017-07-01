@@ -515,7 +515,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 768px) {
-  #fh5co-intro {
+  #tre-icon #fh5co-intro {
     padding-bottom: 5.53em;
   }
 }
@@ -628,6 +628,14 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #52d3aa !important;
 }
 
+.fila2{
+  margin-top: -155px;
+}
+@media screen and (max-width: 768px){
+  .fila2{
+  margin-top: -40px;
+  }
+}
 
 
 .watch-video {
