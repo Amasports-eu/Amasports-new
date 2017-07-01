@@ -539,13 +539,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 992px){
   .fh5co-text{
-    height: 330px;
+    height: 250px;
   }
+  .project-item-description{
+  height: 100px;
+}
   #fh5co-intro .fh5co-block{
     height: 430px;
   }
   #fh5co-intro p{
-    height: 150px;
+    height: 70px;
   }
     #fh5co-intro h2{
     height: 50px;
@@ -1054,9 +1057,9 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none !important;
 }
 #fh5co-work .fh5co-project-item .fh5co-text h2 {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
-  margin: 0;
+  margin: 0 0 10px 0;
 }
 #fh5co-work .fh5co-project-item .fh5co-text span {
   color: #b3b3b3;
@@ -1074,11 +1077,9 @@ h1, h2, h3, h4, h5, h6 {
   top: -15px;
 }
 .fh5co-project-item .text-project-item p{
-  height: 130px;
   max-width: 450px;
 }
 .fh5co-project-item .project-item-description p{
-  height: 130px;
   max-width: 450px;
 }
 .fh5co-project-item p{
@@ -1092,6 +1093,15 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none !important;
 }
 
+.orario img{
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 768px){
+  .orario{
+    margin-bottom: 50px;
+  }
+}
 
 .fh5co-person {
   border: 2px solid #f2f2f2;
@@ -1103,6 +1113,10 @@ h1, h2, h3, h4, h5, h6 {
   .fh5co-person {
     margin-bottom: 5.5em;
   }
+}
+.fh5co-position {
+    height: 60px;
+
 }
 .fh5co-person figure {
   position: absolute;
@@ -1166,11 +1180,11 @@ h1, h2, h3, h4, h5, h6 {
 , #455A64); /* Standard syntax */
 
 }
-#fh5co-contact .fh5co-contact-info {
+.fh5co-contact-info {
   padding: 0;
-  margin: 0 0 1.5em 0;
+  margin: 0 3em 1.5em 3em;
 }
-#fh5co-contact .fh5co-contact-info li {
+.fh5co-contact-info li {
   position: relative;
   padding: 0;
   margin: 0 0 1.5em 0;
@@ -1189,6 +1203,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-contact h3{
   color: white;
+  margin: 1em 1em;
 }
 #fh5co-contact i{
   color: white;
@@ -1214,6 +1229,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-contact .scritta{
   height: 75px;
+}
+.form-group{
+  margin: 0.5em 3em;
 }
 
 

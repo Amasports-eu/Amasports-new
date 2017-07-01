@@ -14,17 +14,30 @@ section{
 
 #fh5co-home{
 	height: 600px;
-	width: 105%;
+	width: 100%;
 	padding: 0;
 	background: linear-gradient(0deg, transparent, transparent);
 	background-position: center top;
-	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: local;
 	z-index: 0;
 	position: initial;
 } 
-
+@media screen and (max-width: 1199px){
+  #fh5co-home{
+  height: 400px;
+  }
+}
+@media screen and (max-width: 768px){
+  #fh5co-home{
+  height: 300px;
+  }
+}
+@media screen and (max-width: 400px){
+  #fh5co-home{
+  height: 200px;
+  }
+}
 #nomeservizio{
 	max-width: 1140px;
 	margin: -70px auto 0px; auto;
@@ -119,7 +132,7 @@ pacchetti
   display: inline-block;
   height: 80px;
   padding: 0;
-  width: 101%;
+  width: 100%;
 }
 #fh5co-pacchetti:before {
   top: 0;
@@ -330,7 +343,7 @@ info
   display: inline-block;
   height: 80px;
   padding: 0;
-  width: 101%;
+  width: 100%;
 }
 #fh5co-info:before {
   top: 0;
@@ -381,7 +394,7 @@ corsi
   display: inline-block;
   height: 80px;
   padding: 0;
-  width: 101%;
+  width: 100%;
 }
 #fh5co-corsi:before {
   top: 0;
@@ -465,7 +478,7 @@ orari
   display: inline-block;
   height: 80px;
   padding: 0;
-  width: 101%;
+  width: 100%;
 }
 #orari:before {
   top: 0;
