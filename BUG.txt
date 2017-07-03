@@ -1,5 +1,7 @@
-mettere pulsante con invio automatico per il form
+attivare pulsante con invio automatico per il form e catalogare indirizzi email
 
-errori in console di jquery che non fanno funzionare link "palestre" del nav
+errori di jquery che non fanno funzionare link "palestre" del nav nella pagina palestre.html e runningflow.html
 
-cookie law
+nella visione da cellulare si crea dello spazio vuoto a destra ai lati, non capisco perchè
+
+come mettere cookie law e come utilizzare cookie

@@ -15,10 +15,11 @@ section{
 #fh5co-home{
 	height: 600px;
 	padding: 0;
-	background-repeat: no-repeat;
+  background-attachment: local;
+  background-repeat: no-repeat;
 	z-index: -1;
   background-color: transparent;
-  width: 100%;
+  background-size: cover; 
 
 }
 } 
