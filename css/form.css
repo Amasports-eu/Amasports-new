@@ -59,5 +59,11 @@ select{
 }
 
 .btn{
-	margin: 0 auto;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+}
+
+p{
+	text-align: center;
 }

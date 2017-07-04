@@ -790,6 +790,10 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-services h3 {
   font-size: 24px;
   color: #fff;
+}
+#fh5co-services .subtext h3 {
+  font-size: 24px;
+  color: #fff;
   margin-left: 0.5em;
   margin-right: 0.5em;
 }

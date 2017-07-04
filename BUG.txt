@@ -1,7 +1,9 @@
-attivare pulsante con invio automatico per il form e catalogare indirizzi email
+-non ho ben capito cosa è bootstarp
 
-errori di jquery che non fanno funzionare link "palestre" del nav nella pagina palestre.html e runningflow.html
+-non so come attivare il pulsante con invio automatico per il form e catalogare indirizzi email
 
-nella visione da cellulare si crea dello spazio vuoto a destra ai lati, non capisco perchè
+-errori di jquery che non fanno funzionare href "palestre" del nav nella pagina palestre.html e runningflow.html
 
-come mettere cookie law e come utilizzare cookie
+-nella visione da cellulare si crea dello spazio vuoto a destra, non capisco perchè
+
+-cosa mettere nel link della cookie law e come utilizzare in maniera efficacie ed efficiente i cookie
