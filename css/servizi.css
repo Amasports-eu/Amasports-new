@@ -64,6 +64,8 @@ section{
 	margin: 0;
 	padding: 0;
 	box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.5);
+  width: 200px;
+  height: 200px;
 }
 
 #nomeservizio img{
@@ -198,13 +200,12 @@ pacchetti
   padding: 0 15px 0 15px;
 }
 .fh5co-description {
-	height: 80px;
 	margin: 5px 0 10px 0;
 }
 .fh5co-pacchetto {
-  height: 290px;
   max-width: 100%;
 }
+
 
 .fh5co-pacchetto p{
   font-size: 16px;
@@ -241,7 +242,6 @@ pacchetti
 	font-size: 150%;
 	}
 	.fh5co-description {
-	height: 70px;
 	margin: 5px 0 10px 0;
   font-size: 350%;
 	}
@@ -249,7 +249,6 @@ pacchetti
 	bottom: -5px;
 	}
 	.fh5co-pacchetto {
-	height: 400px;
 	max-width: 100%;
 	}
   .fh5co-pacchetto p{
@@ -265,7 +264,6 @@ pacchetti
 	bottom: -4px;
 	}
 	.fh5co-pacchetto {
-	height: 350px;
 	max-width: 100%;
 	}
 }
@@ -277,7 +275,6 @@ pacchetti
 	bottom: -4px;
 	}
 	.fh5co-pacchetto {
-	height: 300px;
 	max-width: 100%;
 	}
 }
@@ -289,14 +286,11 @@ pacchetti
 	bottom: -2px;
 	}
 	.fh5co-pacchetto {
-	height: 310px;
 	max-width: 100%;
 	}
   .fh5co-description{
-    height: 90px;
   }
   .fh5co-pacchetto h2{
-    height: 60px;
   }
 }
 #fh5co-pacchetti a{
@@ -367,7 +361,7 @@ info
   color: rgba(255, 255, 255, 0.8);
 }
 #fh5co-info p{
-  margin: 0 1em;
+  margin: 0 1em 50px 1em;
 }
 /*************
 corsi
@@ -536,4 +530,18 @@ contatti
 
 #fh5co-contact h3{
   text-align: center;
+}
+
+
+
+.asimmetrico{
+  height: initial;
+}
+.asimmetrico p{
+  height: 100%;
+}
+.asimmetrico .fh5co-description{
+}
+.asimmetrico ul{
+  padding-bottom: 10px;
 }
