@@ -1075,7 +1075,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-work .fh5co-project-item .fh5co-text {
   padding: 10px 20px;
 }
-.fh5co-text p {
+#fh5co-work .fh5co-text p {
   height: 100px;
 }
 @media screen and (max-width: 992px){

@@ -531,17 +531,6 @@ contatti
 #fh5co-contact h3{
   text-align: center;
 }
-
-
-
-.asimmetrico{
-  height: initial;
-}
-.asimmetrico p{
-  height: 100%;
-}
-.asimmetrico .fh5co-description{
-}
 .text-project-item ul{
   padding-bottom: 0.5em;
 }
