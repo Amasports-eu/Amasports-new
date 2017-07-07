@@ -229,6 +229,10 @@ pacchetti
 	list-style: none;
 	position: relative;
 }
+#fh5co-pacchetti li div{
+  padding-right: 40px;
+}
+
 #fh5co-pacchetti strong{
 	font-size: 120%;
 	color: black;
@@ -237,47 +241,7 @@ pacchetti
 	bottom: -2px;
 }
 
-@media screen and (max-width: 768px){ 
-	#fh5co-pacchetti li, #fh5co-pacchetti h2 {
-	font-size: 150%;
-	}
-	.fh5co-description {
-	margin: 5px 0 10px 0;
-  font-size: 350%;
-	}
-	#fh5co-pacchetti strong{
-	bottom: -5px;
-	}
-	.fh5co-pacchetto {
-	max-width: 100%;
-	}
-  .fh5co-pacchetto p{
-    font-size: 22px;
-  }
-}
 
-@media screen and (max-width: 530px){ 
-	#fh5co-pacchetti li, #fh5co-pacchetti p, #fh5co-pacchetti h2 {
-	font-size: 130%;
-	}
-	#fh5co-pacchetti strong{
-	bottom: -4px;
-	}
-	.fh5co-pacchetto {
-	max-width: 100%;
-	}
-}
-@media screen and (max-width: 480px){ 
-	#fh5co-pacchetti li, #fh5co-pacchetti p, #fh5co-pacchetti h2 {
-	font-size: 100%;
-	}
-	#fh5co-pacchetti strong{
-	bottom: -4px;
-	}
-	.fh5co-pacchetto {
-	max-width: 100%;
-	}
-}
 @media screen and (max-width: 370px){ 
 	#fh5co-pacchetti li, #fh5co-pacchetti p, #fh5co-pacchetti h2 {
 	font-size: 80%;
