@@ -343,6 +343,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   margin-top: 0px;
+  width: 100%;
 }
 #fh5co-header.navbar-fixed-top .navbar-brand {
   color: #52d3aa;
@@ -761,6 +762,12 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   position: relative;
   color: rgba(255, 255, 255, 0.7);
+}
+@media screen and (max-width: 768px) {
+  #fh5co-services h3, #fh5co-services p, #fh5co-services i{
+    text-align: center;
+    display: block;
+    } 
 }
 #fh5co-services:before, #fh5co-services:after {
   position: absolute;
