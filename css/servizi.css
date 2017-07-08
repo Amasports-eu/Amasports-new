@@ -91,10 +91,6 @@ h1{
 pacchetti
 *************/
 
-#fh5co-pacchetti a:hover {
-  text-decoration: none;
-  box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.3);
-}
 #fh5co-pacchetti .fh5co-pacchetto:hover, #fh5co-pacchetti .fh5co-pacchetto:focus {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -207,7 +203,7 @@ pacchetti
 }
 
 
-.fh5co-pacchetto p{
+.fh5co-description p{
   font-size: 16px;
   color: #b3b3b3;
 }
@@ -217,6 +213,10 @@ pacchetti
 }
 #fh5co-pacchetti .fh5co-pacchetto:hover h2, #fh5co-pacchetti .fh5co-pacchetto:hover span, #fh5co-pacchetti .fh5co-pacchetto:focus h2, #fh5co-pacchetti .fh5co-pacchetto:focus span {
   text-decoration: none !important;
+}
+#fh5co-pacchetti ul{
+  width: 100%;
+  padding: 0;
 }
 
 #fh5co-pacchetti li{
@@ -228,6 +228,7 @@ pacchetti
 	width: 100%;
 	list-style: none;
 	position: relative;
+  color: #52d3aa;
 }
 #fh5co-pacchetti li div{
   padding-right: 40px;
@@ -257,22 +258,35 @@ pacchetti
   .fh5co-pacchetto h2{
   }
 }
-#fh5co-pacchetti a{
-	padding-left: 0;
-	margin: 0;
 
-}
 
 #fh5co-pacchetti li:hover{
-	box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.3);
+  background-color: #EEEEEE;
 }
 
-
-.text-project-item ul{
-	padding: 0;
-	margin: 0;
+.coupon{
+  background-color: #52d3aa;
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 900;
+  margin: 1em auto;
+  display: block;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  width: 97%;
+  text-align: center;
 }
-
+.coupon:hover{
+  text-decoration: none;
+  background-color: #455A64;
+  color: white;
+  -webkit-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
+}
 /*************
 info
 *************/
