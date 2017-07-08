@@ -822,6 +822,32 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-services .section-heading h2.left-border:after {
   background: rgba(255, 255, 255, 0.3);
 }
+.bottone{
+  color: #52d3aa;
+  font-size: 25px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 5px;
+  font-weight: 900;
+  margin: 50px auto;
+  text-align: center;
+  display: inline-block;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+
+}
+.bottone:hover{
+  text-decoration: none;
+  background-color: #455A64;
+  color: white;
+  -webkit-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
+}
+
+
+
 
 #fh5co-counters {
   background: #52d3aa;
@@ -1075,9 +1101,10 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-work .fh5co-project-item .fh5co-text {
   padding: 10px 20px;
 }
-#fh5co-work .fh5co-text p {
+#fh5co-intro .fh5co-text p, #fh5co-work .fh5co-text p {
   height: 100px;
 }
+
 @media screen and (max-width: 992px){
   #fh5co-intro .fh5co-text{
     height: 350px;
@@ -1118,12 +1145,20 @@ h1, h2, h3, h4, h5, h6 {
   height: 70px;
 }
 }
-@media screen and (max-width: 370px){
+@media screen and (max-width: 390px){
   #fh5co-work .fh5co-text{
     height: 240px;
   }
   #fh5co-work .fh5co-text p {
   height: 90px;
+}
+}
+@media screen and (max-width: 330px){
+  #fh5co-work .fh5co-text{
+    height: 300px;
+  }
+  #fh5co-work .fh5co-text p {
+  height: 150px;
 }
 }
 #fh5co-work .fh5co-project-item .fh5co-text h2, #fh5co-work .fh5co-project-item .fh5co-text span {
