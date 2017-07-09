@@ -1,5 +1,3 @@
--non ho ben capito cosa è bootstarp
-
 -non so come attivare il pulsante con invio automatico per il form e catalogare indirizzi email
 
 -errori di jquery che non fanno funzionare href "palestre" del nav nella pagina palestre.html e runningflow.html

@@ -478,12 +478,16 @@ orari
 
 #orari ul{
 	display: inline-block;
-
+  padding: 0 0.5em;
 }
 
 #orario{
 	display: inline-block;
 }
+#orari li{
+  list-style: none;
+}
+
 
 /*************
 contatti
