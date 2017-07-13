@@ -460,6 +460,7 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: 0.5s;
   transition: 0.5s;
   font-size: 30px;
+  margin-top: 60px;
 }
 #fh5co-home .text-inner a:hover, #fh5co-home .text-inner a:active, #fh5co-home .text-inner a:focus {
   text-decoration: none;
@@ -474,12 +475,12 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-home .text-inner h2 {
   font-size: 50px;
   line-height: 38px;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
   margin: 0;
-  padding-bottom: 30px;
-  margin-bottom: 50px;
+  padding-bottom: 20px;
 }
+
 @media screen and (max-width: 1199px) {
   #fh5co-home .text-inner h1 {
   font-size: 58px;
@@ -500,6 +501,15 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   right: 0;
   }   
+}
+@media screen and (max-width: 810px) {
+  #fh5co-home .text-inner h1 {
+  font-size: 50px;
+  }
+  #fh5co-home .text-inner h2 {
+    padding: 0;
+    margin: 0;
+  }
 }
 .slant {
   position: absolute;
