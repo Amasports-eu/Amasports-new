@@ -401,7 +401,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-home {
   background-color: transparent;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   position: relative;
   width: 100%;
@@ -1205,6 +1205,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .fh5co-project-item .project-item-description p{
   max-width: 450px;
+}
+.project-item-description span{
+  display: inline-block;
+  float: right;
 }
 .fh5co-project-item p{
   font-size: 16px;

@@ -7,3 +7,5 @@
 -visione da android buggata con i margin. Inoltre scrollando scompare mezzo nav.
 
 -cosa mettere nel link della cookie law e come utilizzare in maniera efficacie ed efficiente i cookie
+
+-link indirizzi
