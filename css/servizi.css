@@ -215,7 +215,10 @@ pacchetti
   font-size: 16px;
   color: #b3b3b3;
 }
-
+.fh5co-description strong{
+  text-align: center;
+  display: block;
+}
 #fh5co-pacchetti .fh5co-pacchetto:hover img, #fh5co-pacchetti .fh5co-pacchetto:focus img {
   opacity: .7;
 }
@@ -242,14 +245,16 @@ pacchetti
   padding-right: 40px;
 }
 
-#fh5co-pacchetti strong{
+.text-project-item strong{
 	font-size: 120%;
 	color: black;
 	position: absolute;
 	right: 5px;
 	bottom: -2px;
 }
-
+.grey{
+  background-color: #E9FFEE;
+}
 
 @media screen and (max-width: 370px){ 
 	#fh5co-pacchetti li, #fh5co-pacchetti p, #fh5co-pacchetti h2 {
@@ -399,11 +404,16 @@ corsi
 #fh5co-corsi .section-heading h3 {
   color: rgba(255, 255, 255, 0.8);
 }
+#fh5co-corsi ul h3{
+  margin-bottom: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
 
 
 #fh5co-corsi ul {
 	display: inline-block;
-	padding: 0 80px;
+  vertical-align: top;
 }
 
 @media screen and (max-width: 992px){
@@ -412,10 +422,14 @@ corsi
 	padding: 0 50px;
 }
 }
+@media screen and (max-width: 768px){
+  #fh5co-corsi ul {
+  list-style: none;
+  }
+}
 @media screen and (max-width: 591px){
 	#fh5co-corsi ul {
 	display: block;
-	list-style: none;
 	margin: 0;
 }
 }
@@ -494,6 +508,9 @@ orari
 }
 #orari li{
   list-style: none;
+}
+.orario{
+  margin-bottom: 30px;
 }
 
 
