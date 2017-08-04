@@ -505,9 +505,15 @@
           scrollwheel: false
         });
 
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+        });
+
 
       }
     </script>
+    
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCrdGLKzTJVsOkJk4jB_6ymatr9_jQxXA&callback=initMap">
     </script>
