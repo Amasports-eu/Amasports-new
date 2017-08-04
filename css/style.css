@@ -1131,50 +1131,68 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 768px){
   #fh5co-intro .fh5co-text{
-    height: 150px;
+    height: auto;
   }
   #fh5co-intro .fh5co-text p {
-  height: 70px;
+  height: auto;
 }
 }
 @media screen and (max-width: 370px){
   #fh5co-intro .fh5co-text{
-    height: 250px;
+    height: auto;
   }
   #fh5co-intro .fh5co-text p {
-  height: 140px;
+  height: auto;
+}
+}
+@media screen and (max-width: 1199px){
+  .homepage #fh5co-work .fh5co-text{
+    height: 260px;
+  }
+  #fh5co-work .fh5co-text p {
+  height: 170px;
 }
 }
 @media screen and (max-width: 992px){
-  #fh5co-work .fh5co-text{
-    height: 220px;
+  .homepage #fh5co-work .fh5co-text{
+    height: auto;
   }
   #fh5co-work .fh5co-text p {
-  height: 80px;
+  height: auto;
 }
 }
 @media screen and (max-width: 768px){
   #fh5co-work .fh5co-text{
-    height: 220px;
+    height: auto;
   }
   #fh5co-work .fh5co-text p {
-  height: 70px;
+  height: auto;
 }
 }
+
+@media screen and (max-width: 992px){
+  .prenota #fh5co-work .fh5co-text{
+    height: 230px;
+  }
+  #fh5co-work .fh5co-text p {
+  height: 100px;
+}
+}
+
 @media screen and (max-width: 390px){
   #fh5co-work .fh5co-text{
-    height: 240px;
+    height: auto;
   }
   #fh5co-work .fh5co-text p {
-  height: 90px;
+  height: auto;
 }
 }
 @media screen and (max-width: 330px){
   #fh5co-work .fh5co-text{
-    height: 300px;
+    height: auto;
   }
   #fh5co-work .fh5co-text p {
-  height: 150px;
+  height: auto;
 }
 }
 #fh5co-work .fh5co-project-item .fh5co-text h2, #fh5co-work .fh5co-project-item .fh5co-text span {
