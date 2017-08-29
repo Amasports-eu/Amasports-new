@@ -72,7 +72,12 @@
 	<body>
 	<header role="banner" id="fh5co-header">
 			<div class="container">
-				<!-- <div class="row"> -->
+				<script>
+    function goToURL() {
+      location.href = 'index.html';    // you can change this to any file where you want to go after clicking the link
+
+    }
+  </script>
 			    <nav class="navbar navbar-default">
 		        <div class="navbar-header">
 		        	<!-- Mobile Toggle Menu Button -->
@@ -81,7 +86,7 @@
 		        </div>
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
-		            <li><a href="index.html" target="blank"><span>Home</span></a></li>
+		            <li><a href="javascript:void(0)" onclick="goToURL(); return false;" ><span>Home</span></a></li>
 		            <li><a href="#" data-nav-section="work"><span>Prenota</span></a></li>
 		            <li><a href="#" data-nav-section="services"><span>Lavora con noi</span></a></li>
 		            <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>

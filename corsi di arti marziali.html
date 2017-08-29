@@ -8,8 +8,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>AmaSports &mdash; Trova lo sportivo che è in te</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Il primo portale dove puoi confrontare e prenotare servizi sportivi" />
-	<meta name="keywords" content="sport, personal trainer, palestra, nuoto, gym, swimming, karate, yoga, pilates" />
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
   <!-- 
 	//////////////////////////////////////////////////////
 
@@ -72,6 +74,19 @@
 	<header role="banner" id="fh5co-header">
 			<div class="container">
 				<!-- <div class="row"> -->
+                
+                <!---                HREF Problem     ------------------------------>
+                
+                
+                
+                
+                <!---- Here is javascript to load the required location   ------>
+                  <script>
+    function goToURL() {
+      location.href = 'index.html';    // you can change this to any file where you want to go after clicking the link
+
+    }
+  </script>
 			    <nav class="navbar navbar-default">
 		        <div class="navbar-header">
 		        	<!-- Mobile Toggle Menu Button -->
@@ -80,7 +95,7 @@
 		        </div>
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
-		            <li><a href="index.html" target="blank"><span>Home</span></a></li>
+		            <li><a href="javascript:void(0)" onclick="goToURL(); return false;" ><span>Home</span></a></li>  <!-- Change href to this and add onclick as it is in every link where href is not working ----------------> 
 		            <li><a href="#" data-nav-section="work"><span>Prenota</span></a></li>
 		            <li><a href="#" data-nav-section="services"><span>Lavora con noi</span></a></li>
 		            <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>
@@ -112,7 +127,7 @@
 						<div class="fh5co-text">
 						<h2>Playoff</h2>
 						<span>Palestra - Arti Marziali - Yoga</span>
-							<div class="project-item-description"">
+							<div class="project-item-description">
 								<p>Bodybuilding - Calisthenics - Crossfit - Pump - Spinning - Total Body - Power Step - Step and Tone - Zumba - Pilates - Ashtanga Yoga - Boxe - Fitboxe - Thai Boxe - MMA - Tai Chi - ecc.</p>
 								<span>A partire da: <strong>39€</strong></span>
 							</div>
