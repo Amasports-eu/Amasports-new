@@ -1,11 +1,11 @@
 -non so come attivare il pulsante con invio automatico per il form e catalogare indirizzi email
 
--errori di jquery che non fanno funzionare href "palestre" del nav nella pagina palestre.html e runningflow.html
-
--nella visione da cellulare si crea dello spazio vuoto a destra, non capisco perchè
-
--visione da android buggata con i margin. Inoltre scrollando scompare mezzo nav.
+-nella visione da cellulare si crea dello spazio vuoto a destra, non capisco perchè.  visione da android buggata con i margin. Inoltre scrollando scompare mezzo nav.
 
 -cosa mettere nel link della cookie law e come utilizzare in maniera efficacie ed efficiente i cookie
 
--link indirizzi mappa
+-link che apra google maps o mappe quando si clicca sull indirizzo
+
+- mettere doppio pin sulla mappa
+
+-condivisione su facebook non appare l'immagine
