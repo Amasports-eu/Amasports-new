@@ -4,7 +4,7 @@ error_reporting(1);
 include("PHPMailer/PHPMailerAutoload.php");
 
 // Step 1 - Enter your email address below.
-$to =  'amasports.eu@gmail.com'; //'info@bathwestfire.co.uk';
+$to =  'info@amasports.eu'; //'info@bathwestfire.co.uk';
 
 if(isset($_POST['emailSent'])) {
 
