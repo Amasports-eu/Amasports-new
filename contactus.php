@@ -72,8 +72,8 @@ $mail->SMTPSecure = 'tls'; // Enable encryption, 'ssl' also accepted
 
 		$mail->Host = 'smtp.gmail.com';//'mail.lcn.com';				  // Specify main and backup server
         $mail->SMTPAuth = true;                             // Enable SMTP authentication
-		$mail->Username = 'testingpurposes508@gmail.com';   //'info@bathwestfire.co.uk';  //   'mudassarmdmd@gmail.com';   //         		           // SMTP username
-		$mail->Password ='9E;=,3bSteve';        //  'Hea;  //                 // SMTP password
+		$mail->Username = 'info@amasports.eu';   //'info@bathwestfire.co.uk';  //   'mudassarmdmd@gmail.com';   //         		           // SMTP username
+		$mail->Password ='Orsetto10';        //  'Hea;  //                 // SMTP password
 		$mail->SMTPSecure ='tsl';  // 'tsl';                          // Enable encryption, 'ssl' also accepted
 		$mail->From = $email;
 		$mail->FromName = $_POST['name'];
