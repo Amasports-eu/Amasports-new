@@ -6,6 +6,4 @@
 
 -link che apra google maps o mappe quando si clicca sull indirizzo
 
-- mettere doppio pin sulla mappa
-
 -condivisione su facebook non appare l'immagine
