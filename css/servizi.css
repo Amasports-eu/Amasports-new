@@ -441,6 +441,7 @@ corsi
 	display: inline-block;
   vertical-align: top;
   padding: 0 50px;
+  list-style: none;
 }
 
 @media screen and (max-width: 992px){
@@ -523,6 +524,7 @@ orari
 }
 #orari .section-heading h3 {
   color: rgba(255, 255, 255, 0.8);
+  margin: 0 0 10px 0;
 }
 
 #orari ul{
