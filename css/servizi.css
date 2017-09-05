@@ -17,7 +17,7 @@ em{
 }
 
 #fh5co-home{
-	height: 600px;
+	height: 300px;
 	padding: 0;
   background-repeat: no-repeat;
 	z-index: -1;
@@ -28,7 +28,7 @@ em{
 
 @media screen and (max-width: 1199px){
   #fh5co-home{
-  height: 400px;
+  height: 300px;
   }
 }
 @media screen and (max-width: 768px){
@@ -42,7 +42,7 @@ em{
   }
 }
 #fh5co-cover{
-  height: 600px;
+  height: 300px;
   padding: 0;
   background-repeat: no-repeat;
   z-index: -1;
@@ -53,7 +53,7 @@ em{
 
 @media screen and (max-width: 1199px){
   #fh5co-cover{
-  height: 400px;
+  height: 300px;
   }
 }
 @media screen and (max-width: 768px){
@@ -102,6 +102,11 @@ em{
 }
 #nomeservizio .text{
 	max-width: 440px;
+}
+@media screen and (max-width: 768px){
+  #nomeservizio .text{
+    margin: auto;
+  }
 }
 
 #nomeservizio p{
@@ -268,7 +273,7 @@ pacchetti
   color: #52d3aa;
 }
 #fh5co-pacchetti li div{
-  padding-right: 40px;
+  padding-right: 55px;
 }
 
 .text-project-item strong{
@@ -278,6 +283,11 @@ pacchetti
 	right: 5px;
 	bottom: -2px;
 }
+.text-project-item font{
+ padding: 0 1px 0 0;
+
+}
+
 .grey{
   background-color: #E9FFEE;
 }

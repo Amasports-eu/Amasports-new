@@ -1101,7 +1101,6 @@ h1, h2, h3, h4, h5, h6 {
 .img-responsive{
   width: 470px;
   height: 330px;
-  background-image: url(/runningflow/profilo.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
