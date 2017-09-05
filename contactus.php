@@ -38,57 +38,35 @@ if(isset($_POST['emailSent'])) {
 		foreach($fields as $field) {
 			$message .= $field['text'].": " . htmlspecialchars($field['val'], ENT_QUOTES) . "<br>\n";
 		}
-        /*
-        $mail = new PHPMailer;
+    $mail = new PHPMailer;
+	$mail->IsSMTP();                                         // Set mailer to use SMTP
+	$mail->Host = 'smtp.gmail.com';				       // Specify main and backup server
+	$mail->SMTPAuth = true;                                  // Enable SMTP authentication
+	$mail->Username = 'info@amasports.eu';                    // SMTP username
+	$mail->Password = 'orsetto10';                              // SMTP password
+	$mail->SMTPSecure = 'tls';                               // Enable encryption, 'ssl' also accepted
+	$mail->Port = 587;   								       // TCP port to connect to
 
-$mail->IsSMTP(); // Set mailer to use SMTP
-$mail->SMTPDebug = 2; // Debug Mode
-$mail->Port = 587; 
-// Step 4 - If you don't receive the email, try to configure the parameters below:
+	$mail->AddAddress($to);	 						       // Add another recipient
 
-$mail->Host = 'smtp.gmail.com';//'mail.lcn.com';	// Specify main and backup server
-$mail->SMTPAuth = true; // Enable SMTP authentication
-$mail->Username = 'stevendmilne@gmail.com'; // SMTP username
-$mail->Password = 'monkeybumer'; // SMTP password
-$mail->SMTPSecure = 'tls'; // Enable encryption, 'ssl' also accepted
+	$mail->SetFrom($email, $_POST['name']);
+	$mail->AddReplyTo($_POST['email'], $_POST['name']);
 
-        
-        
-        
-        
-        
-        
-        
-        
-        */
-        
-        
-		$mail = new PHPMailer;
-        
-		$mail->IsSMTP();                                      // Set mailer to use SMTP
-		$mail->SMTPDebug = 2;                                 // Debug Mode
-        $mail->Port = 587;  //465; //587; 
-		// Step 4 - If you don't receive the email, try to configure the parameters below:
+	$mail->IsHTML(true);                                  // Set email format to HTML
 
-		$mail->Host = 'smtp.gmail.com';//'mail.lcn.com';				  // Specify main and backup server
-        $mail->SMTPAuth = true;                             // Enable SMTP authentication
-		$mail->Username = 'info@amasports.eu';   // I setted my G suite email         		           // SMTP username
-		$mail->Password ='XXXXXXXX';        // I will put here my G suite password
-		$mail->SMTPSecure ='tsl';  // 'tsl';                          // Enable encryption, 'ssl' also accepted
-		$mail->From = $email;
-		$mail->FromName = $_POST['name'];
-		$mail->AddAddress($to);
-		$mail->AddReplyTo($email, $name);
-		$mail->IsHTML(true);
-		$mail->CharSet = 'UTF-8';
-		$mail->Body    = $message;
+	$mail->CharSet = 'UTF-8';
 
-		// Step 5 - If you don't want to attach any files, remove that code below
+	$mail->Subject = $subject;
+	$mail->Body    = $message;
+
+	$mail->Send();
 
 		if($mail->Send()) {
 			$arrResult = array('response'=> 'success');
+            echo "Successfully sent";
 		} else {
 			$arrResult = array('response'=> 'error', 'error'=> $mail->ErrorInfo);
+            echo $arrResult;
 		}
 
 	}
