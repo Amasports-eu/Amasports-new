@@ -4,7 +4,7 @@ error_reporting(1);
 include("php/PHPMailer/PHPMailerAutoload.php");
 
 // Step 1 - Enter your email address below.
-$to =  'tommaso-castellani@hotmail.it'; // Change where to send emails 
+$to =  'info@amasports.eu'; // Change where to send emails 
 
 if(isset($_POST['emailSent'])) {
 
@@ -48,8 +48,8 @@ if(isset($_POST['emailSent'])) {
 		// Step 4 - If you don't receive the email, try to configure the parameters below:
 		$mail->Host = 'smtp.gmail.com';//'mail.lcn.com';				  // Specify main and backup server
         $mail->SMTPAuth = true;                             // Enable SMTP authentication
-		$mail->Username = 'tommaso-castellani@hotmail.it';   //'info@bathwestfire.co.uk';  //   'mudassarmdmd@gmail.com';   //         		  
-		$mail->Password ='mberombero77';        //  'Hea;  //                 // SMTP password
+		$mail->Username = 'freeeeelace123@gmail.com';   //'info@bathwestfire.co.uk';  //   'mudassarmdmd@gmail.com';   //         		  
+		$mail->Password ='AmaSports';        //  'Hea;  //                 // SMTP password
 		$mail->SMTPSecure ='tsl';  // 'tsl';                          // Enable encryption, 'ssl' also accepted
 		$mail->From = $email;
 		$mail->FromName = $_POST['name'];
