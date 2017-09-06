@@ -48,8 +48,8 @@ if(isset($_POST['emailSent'])) {
 		// Step 4 - If you don't receive the email, try to configure the parameters below:
 		$mail->Host = 'smtp.gmail.com';//'mail.lcn.com';				  // Specify main and backup server
         $mail->SMTPAuth = true;                             // Enable SMTP authentication
-		$mail->Username = 'freeeeelace123@gmail.com';   //'info@bathwestfire.co.uk';  //   'mudassarmdmd@gmail.com';   //         		  
-		$mail->Password ='AmaSports';        //  'Hea;  //                 // SMTP password
+		$mail->Username = 'testingpurposes508@gmail.com';   //'info@bathwestfire.co.uk';  //   'mudassarmdmd@gmail.com';   //         		  
+		$mail->Password ='9E;=,3bSteve';        //  'Hea;  //                 // SMTP password
 		$mail->SMTPSecure ='tsl';  // 'tsl';                          // Enable encryption, 'ssl' also accepted
 		$mail->From = $email;
 		$mail->FromName = $_POST['name'];
