@@ -1,0 +1,64 @@
+h3{
+	text-align: center;
+}
+
+.news{
+	display: inline-block;
+}
+
+label{
+	display: block;
+	margin: 0 auto;
+	text-align: left;
+	color: white;
+	font-weight: 500;
+}
+
+
+#newsletter{
+	max-width: 90%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+textarea{
+	width: 400px;
+}
+select{
+	width: 370px;
+	border-radius: 5px;
+}
+
+#newsletter input{
+	text-align: left;
+}
+
+
+#fh5co-contact .coupon-form{
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+
+.form-group{
+  margin: 0.5em 1em;
+}
+
+#pacchetti{
+	box-sizing: content-box;
+	padding: 5px 15px;
+	max-width: 90%;
+}
+
+.newsletter-title{
+	margin-bottom: 2em;
+}
+
+.btn{
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
