@@ -1,7 +1,0 @@
--invio del il form
-
--visione da alcuni cell buggata con i margin. Inoltre scrollando scompare mezzo nav.
-
--cookie law e come utilizzare in maniera efficacie ed efficiente i cookie
-
--bloccare la navbar durante lo scrolling
